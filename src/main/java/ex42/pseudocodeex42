@@ -1,0 +1,8 @@
+This program will read an input file, process it and produce an output file of the data in a tabular format
+
+Read data from input file
+Create an array and load with members
+Create new arraylist
+Parse data into seperate strings and add to array list
+Create a tabulated string
+Print the table string

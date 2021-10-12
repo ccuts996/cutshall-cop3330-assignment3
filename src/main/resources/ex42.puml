@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App42 {
+    *createName( BufferedReader )
+    *loadFileData( LinkedList<String> )
+}
+
+class Names{
+    First name
+    Last name
+    Salary
+
+    +Names( String , String , int )
+    +Names( String )
+    +toString()
+
+    +getFirstName()
+    +getLastName()
+    +getSalary()
+    +setFirstName(String)
+    +setLastName(String)
+    +setSalary(int)
+
+    *parseNames()
+    *formatFirstName()
+    *formatLastName()
+
+    +getTable()
+}
+
+class FileHandling {
+    +getInputStream(String)
+    *getProjectDirectory()
+}
+
+object File {
+    name data
+}
+
+App42 o---> Names
+App42 --> FileHandling
+FileHandling o--> File
+App42 o--> File
+@enduml

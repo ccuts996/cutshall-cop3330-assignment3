@@ -1,0 +1,7 @@
+In this program it will read a file and modify it with the changes specified
+
+Read input file
+read String data
+Create new string with word that is changed
+Create a new file
+Add new string to new file

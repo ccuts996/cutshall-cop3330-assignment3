@@ -1,0 +1,6 @@
+This program will read in a file of names, alphabeticize it and return a file with the names in alphabetical order
+
+Read file "exercise41_input"
+Read in file data and store in arraylist
+sort array list based on last name
+Print sorted list into new file called "exercise41_output"

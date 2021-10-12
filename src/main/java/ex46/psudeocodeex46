@@ -1,0 +1,7 @@
+In this program it will read a file including words and display a histrogram oof the frequencies of the words included
+
+Read input file
+Create strings and place in an array
+Go through array and update count for new instants of a word and create new counts for new words
+Tabulate word array by frequency and place in graph in string form
+output graph string
